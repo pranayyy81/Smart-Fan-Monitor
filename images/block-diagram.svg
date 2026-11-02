@@ -1,0 +1,30 @@
+<svg width="760" height="440" viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+ <rect width="760" height="440" fill="#fff"/><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#111"/></marker></defs>
+ <g fill="none" stroke="#111" stroke-width="1">
+  <path d="M200 178H296" marker-end="url(#a)"/>
+  <path d="M464 178H512"/><path d="M512 78V282"/>
+  <path d="M512 78H560" marker-end="url(#a)"/><path d="M512 146H560" marker-end="url(#a)"/>
+  <path d="M512 214H560" marker-end="url(#a)"/><path d="M512 282H560" marker-end="url(#a)"/>
+  <path d="M380 214V352" marker-start="url(#a)" marker-end="url(#a)"/>
+  <path d="M296 380H200" marker-start="url(#a)" marker-end="url(#a)"/>
+ </g>
+ <g fill="none" stroke="#111" stroke-width="1">
+  <rect x="24" y="150" width="176" height="56"/>
+  <rect x="296" y="142" width="168" height="72" stroke-width="2.2"/>
+  <rect x="560" y="50" width="176" height="56"/><rect x="560" y="118" width="176" height="56"/>
+  <rect x="560" y="186" width="176" height="56"/><rect x="560" y="254" width="176" height="56"/>
+  <rect x="296" y="352" width="168" height="56"/><rect x="24" y="344" width="176" height="72"/>
+ </g>
+ <g text-anchor="middle" fill="#111">
+  <text x="248" y="168" font-size="11" fill="#555">readings</text>
+  <text x="392" y="318" font-size="11" fill="#555" text-anchor="start">Wi-Fi via phone hotspot</text>
+  <text x="112" y="174" font-weight="600">DHT11 sensor</text><text x="112" y="191" font-size="11" fill="#555">temp + humidity · GPIO 4</text>
+  <text x="380" y="166" font-weight="700">ESP32 DevKit V1</text><text x="380" y="183" font-size="11">reads sensor every 2 s</text><text x="380" y="199" font-size="11">drives LEDs and buzzer</text>
+  <text x="648" y="74" font-weight="600">Red LED</text><text x="648" y="91" font-size="11" fill="#555">above 30°C · GPIO 21</text>
+  <text x="648" y="142" font-weight="600">Green LED</text><text x="648" y="159" font-size="11" fill="#555">30°C or below · GPIO 18</text>
+  <text x="648" y="210" font-weight="600">Buzzer</text><text x="648" y="227" font-size="11" fill="#555">hot and fan off · GPIO 25</text>
+  <text x="648" y="278" font-weight="600">Blue LED (fan)</text><text x="648" y="295" font-size="11" fill="#555">V3 switch · GPIO 26</text>
+  <text x="380" y="376" font-weight="600">Blynk Cloud</text><text x="380" y="393" font-size="11" fill="#555">heat_alert event</text>
+  <text x="112" y="368" font-weight="600">Blynk mobile app</text><text x="112" y="385" font-size="11" fill="#555">shows V0, V1, V5, V7</text><text x="112" y="401" font-size="11" fill="#555">switches V3, V4</text>
+ </g>
+</svg>

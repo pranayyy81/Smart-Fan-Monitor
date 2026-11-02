@@ -1,0 +1,6 @@
+build/
+*.bin
+*.elf
+.DS_Store
+# keep real credentials out of the repo
+secrets.h
