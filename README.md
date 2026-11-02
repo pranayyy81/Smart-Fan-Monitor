@@ -107,10 +107,7 @@ images/                                            Block diagram and illustratio
 
 ## Team
 
-- **Sammeti Venkata Pranay** ([@pranayyy81](https://github.com/pranayyy81))
-- B. Mokshith Reddy
-- R. Bala Aditya Kumar
-
+- **Sammeti Venkata Pranay**([@pranayyy81](https://github.com/pranayyy81))
 B.Tech ECE, GITAM (Deemed to be University), Visakhapatnam
 Course: 24EECE2031, Introduction to IoT and Its Applications
 
